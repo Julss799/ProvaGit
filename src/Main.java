@@ -8,6 +8,11 @@ public class Main {
 		n++;
 		
 		System.out.println(n);
+		
+		saludar("pau");
 	}
 
+	public static void saludar(String name) {
+		System.out.println("Hola "+name);
+	}
 }
