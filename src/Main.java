@@ -7,7 +7,10 @@ public class Main {
 		
 		n++;
 		
-		System.out.println(n);
+		if(n%2==0) {
+			System.out.println(n);
+		}
+		
 	}
 
 }
