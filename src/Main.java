@@ -7,8 +7,8 @@ public class Main {
 		
 		n++;
 		
-		if(n%2==0) {
-			System.out.println(n);
+		if(esParell(n)) {
+			System.out.println(n+" es parell.");
 		}
 		
 		
@@ -17,5 +17,9 @@ public class Main {
 
 	public static void saludar(String name) {
 		System.out.println("Hola "+name);
+	}
+	
+	public static boolean esParell(int n) {
+		return n%2==0;
 	}
 }
